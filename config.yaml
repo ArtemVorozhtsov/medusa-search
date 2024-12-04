@@ -1,0 +1,2 @@
+medusa_repository_path: "path_to_medusa_package"  # insert your path to medusa package
+hrms_database_path: "path_to_hrms_database" # insert your path to data folder with HRMS mzXML files
