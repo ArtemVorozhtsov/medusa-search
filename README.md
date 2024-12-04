@@ -1,4 +1,7 @@
 # medusa-search
+===============
+
+[![DOI](https://zenodo.org/badge/898711582.svg)](https://doi.org/10.5281/zenodo.14279139)
 
 The repository contains code for machine learning (ML)-powered search engine specifically tailored for analyzing tera-scale high-resolution mass spectrometry (HRMS) data.
  
