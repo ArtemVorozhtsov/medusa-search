@@ -34,6 +34,9 @@ python setup.py
 # find site directory
 SITEDIR=$(python -m site --user-site)
 
+# create if site directory doesn't exist
+mkdir -p "$SITEDIR"
+
 # create new .pth file with medusa_repository_path
 echo "<your medusa repository path>" > "$SITEDIR/medusa.pth"
 ```
