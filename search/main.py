@@ -169,7 +169,7 @@ def create_unique_batch(word_indicator, batch_name, upper_limit_size, inner_limi
     prompt="Set sliding window size (Set 0 if you don't want any windows)",
     help="The parameter, which is number of summarized spectra in one experiment (Need to process monitoring"
     " spectra)",
-    default="0",
+    default="60",
 )
 @click.option(
     "--min_distance",
