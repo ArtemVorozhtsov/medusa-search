@@ -30,14 +30,8 @@ python setup.py
 
 5) Every time you perform search procedure, **medusa-search** takes functions from *medusa_repository_path* folder. You can create a .pth file in the site directory to add *medusa_repository_path*.
 
-Site directory can be found with the command below:
-
 ```bash
-python -m site --user-site
-```
-
-```bash
-# find directory
+# find site directory
 SITEDIR=$(python -m site --user-site)
 
 # create new .pth file with medusa_repository_path
@@ -48,9 +42,7 @@ echo "<your medusa repository path>" > "$SITEDIR/medusa.pth"
 
 ```bash
 cd search
-```
 
-```bash
 python main.py
 ```
 
