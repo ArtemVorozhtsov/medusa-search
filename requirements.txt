@@ -1,4 +1,4 @@
-PyYAML==5.1
-niet==2.4.0
-Click==7.0
+PyYAML>=5.4
+niet>=2.4.0
+Click>=7.0
 tqdm
