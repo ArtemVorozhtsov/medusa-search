@@ -28,7 +28,7 @@ chmod 744 search/*.sh
 python setup.py
 ```
 
-5) Every time you perform search procedure, **medusa-search** takes functions from *medusa_repository_path* folder. You can create a .pth file in the site directory to add *medusa_repository_path*.
+5) Every time you perform search procedure, medusa-search takes functions from *medusa_repository_path* folder. You can create a .pth file in the site directory to add *medusa_repository_path*.
 
 ```bash
 # find site directory
@@ -49,8 +49,16 @@ cd search
 python main.py
 ```
 
-7) the procedure of batches creation and indexing should be performed before search. It can be performed with **create_batches** and **index** commands respectively. 
+7) the procedure of batches creation and indexing should be performed before search. It can be performed with `create_batches` and `index` commands respectively. 
 
-8) After indexing, **search** can be performed.
+8) After indexing, `search` can be performed.
+
+**Most important commands:**
+| Command | Description |
+| --- | --- |
+| `create_batches` | Create batches of spectra filenames |
+| `create_unique_batch` | Create batch only with spectra filenames that have specific word indicator |
+| `index` | Index filenames from batches located in *batches* directory and save results in *index_pickles* directory |
+| `search` | Search formula in spectra indexed in specific directory |
 
 P.S. More explanations can be found in the Supporting information of the article.
