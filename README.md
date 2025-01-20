@@ -62,7 +62,7 @@ python main.py
 | --- | --- |
 | `create_batches` | Create batches (or shards) of spectra filenames |
 | `create_unique_batch` | Create batch only with spectra filenames that have specific word indicator |
-| `index` | Index filenames from batches located in *medusa-search/search/batches* directory and save results in *index_pickles* directory |
-| `search` | Search formula in spectra indexed in specific directory. Results are saved in *reports*|
+| `index` | Index filenames from batches located in *medusa-search/search/batches* directory and save results in *medusa-search/search/index_pickles* directory |
+| `search` | Search formula in spectra indexed in specific directory. Results are saved in *medusa-search/search/reports*|
 
 P.S. More explanations can be found in the Supporting information of the article.
