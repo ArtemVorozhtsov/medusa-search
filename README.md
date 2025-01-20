@@ -55,14 +55,14 @@ python main.py
 
 7) the procedure of batches creation and indexing should be performed before search. It can be performed with `create_batches` and `index` commands respectively. 
 
-8) After indexing, `search` can be performed.
+8) After indexing, `search` can be performed. Results are saved in *medusa-search/search/reports* folder.
 
 **Most important commands:**
 | Command | Description |
 | --- | --- |
-| `create_batches` | Create batches of spectra filenames |
+| `create_batches` | Create batches (or shards) of spectra filenames |
 | `create_unique_batch` | Create batch only with spectra filenames that have specific word indicator |
-| `index` | Index filenames from batches located in *batches* directory and save results in *index_pickles* directory |
-| `search` | Search formula in spectra indexed in specific directory |
+| `index` | Index filenames from batches located in *medusa-search/search/batches* directory and save results in *index_pickles* directory |
+| `search` | Search formula in spectra indexed in specific directory. Results are saved in *reports*|
 
 P.S. More explanations can be found in the Supporting information of the article.
