@@ -8,7 +8,11 @@ The repository contains code for machine learning (ML)-powered search engine spe
 
 ## How to use it?
 
-1) First, you have to install [MEDUSA python package](https://github.com/Ananikov-Lab/medusa).
+1) First, you have to git clone and install dependencies from [MEDUSA python package](https://github.com/Ananikov-Lab/medusa). Then you have to change branch to *medusa_search*.
+
+```bash
+git checkout medusa_search
+```
 
 2) After that, you have to install additional requirements in medusa-search repository. It is reccomended to use the same virtual environment for medusa and medusa-search.
 
